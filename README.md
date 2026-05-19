@@ -1,5 +1,5 @@
 # Windows Keylogger & Remote Exfiltrator
-## This project provides a simple implementation of a background keylogger for Windows systems, featuring persistence and automatic data exfiltration to a remote server.
+* This project provides a simple implementation of a background keylogger for Windows systems, featuring persistence and automatic data exfiltration to a remote server.
 
 # Components
 * Client (main.c): A C program that establishes persistence in the Startup folder upon execution. It logs keystrokes and the titles of active windows into a local file named requirements.txt. Every 60 seconds, it sends the logged data to a configured server via an HTTP POST request.
